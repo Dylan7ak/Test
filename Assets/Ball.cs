@@ -6,7 +6,7 @@ public class Ball : MonoBehaviour {
 	public bool touchingGround;
 	public float sphereRadius = 0.5f;
 
-	public Vector3 bounceVelocity = new Vector3( 0, 5, 0 );
+	public Vector3 bounceVelocity = new Vector3( 0, 10, 0 );
 	public Transform[] stuffs;
 
 	// Use this for initialization
